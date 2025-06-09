@@ -13,15 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Evan's site
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Personal website of Evan Altair Ranken, physics enthusiast, known jokester, generally ineffective human being.
+# twitter_username: username
+github_username: eranken
+minimal_mistakes_skin: plum
 search: true
 
 # Build settings
@@ -58,34 +56,40 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Evan Altair Ranken"
+  avatar : "/assets/images/construction.jpg"
+  bio    : "Human being of little renown. Physics enthusiast. Constructing a personal website of some sort."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    - label: "GitLab (CERN internal)"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.cern.ch/eranken"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/eranken"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/thisisevan27"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "What?"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    - label: "GitLab (CERN internal)"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.cern.ch/eranken"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/eranken"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/thisisevan27/"
 
 defaults:
   # _posts
@@ -99,6 +103,7 @@ defaults:
       comments: true
       share: true
       related: true
+      # custom_css: /_sass/custom.scss
   # _pages
   - scope:
       path: "_pages"
@@ -113,3 +118,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# custom_css:
+  # - /_sass/custom.scss
