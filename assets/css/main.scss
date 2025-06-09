@@ -3,12 +3,7 @@
 search: false
 ---
 
-@charset "utf-8";
+@import "colors";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin}}"; // skin
 @import "minimal-mistakes"; // main partials
-
-
-$background-color: #240753 !important;
-$text-color: #ddcbb2 !important;
-$primary-color: #c327ab !important;

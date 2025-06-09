@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Physics Actually
+title: Evan's site
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Evan Altair Ranken, physics enthusiast, known jokester, generally ineffective human being.
@@ -57,8 +57,8 @@ plugins:
 
 author:
   name   : "Evan Altair Ranken"
-  avatar : "/assets/images/good-photo.png"
-  bio    : "Human being of little renown. Physics enthusiast. Complainer."
+  avatar : "/assets/images/construction.jpg"
+  bio    : "Human being of little renown. Physics enthusiast. Constructing a personal website of some sort."
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -66,6 +66,9 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
+    - label: "GitLab (CERN internal)"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.cern.ch/eranken"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/eranken"
@@ -78,6 +81,9 @@ footer:
     # - label: "What?"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
+    - label: "GitLab (CERN internal)"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.cern.ch/eranken"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/eranken"
@@ -97,7 +103,7 @@ defaults:
       comments: true
       share: true
       related: true
-      custom_css: /_sass/custom.scss
+      # custom_css: /_sass/custom.scss
   # _pages
   - scope:
       path: "_pages"
@@ -113,5 +119,5 @@ tag_archive:
   type: liquid
   path: /tags/
 
-custom_css:
-  - /_sass/custom.scss
+# custom_css:
+  # - /_sass/custom.scss
