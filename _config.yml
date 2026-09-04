@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Evan's site
-email:
+title: Evan's personal site
+email: sicktrick@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Evan Altair Ranken, physics enthusiast, known jokester, generally ineffective human being.
 # twitter_username: username
@@ -56,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Evan Altair Ranken"
-  avatar : "/assets/images/construction.jpg"
-  bio    : "Human being of little renown. Physics enthusiast. Constructing a personal website of some sort."
+  name   : "Evan Altair Ranken, PhD"
+  avatar : "/assets/images/hike_cropped.jpg"
+  bio    : "Lifelong physics & math enthusiast"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -66,30 +66,42 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
-    - label: "GitLab (CERN internal)"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.cern.ch/eranken"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/eranken"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/thisisevan27"
+    # - label: "GitLab (CERN internal)"
+    #   icon: "fab fa-fw fa-gitlab"
+    #   url: "https://gitlab.cern.ch/eranken"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/eranken"
+    - label: "Hamburg, Germany"
+      icon: "fa-solid fa-location-dot"
+      url: "https://www.google.com/maps/place/Hamburg/"
+    # - label: "Source"
+    #   icon: "fa fa-code-fork"
+    #   url: "https://github.com/eranken/mm-pages"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/thisisevan27"
 
 footer:
   links:
     # - label: "What?"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
-    - label: "GitLab (CERN internal)"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.cern.ch/eranken"
+    - label: "Source"
+      icon: "fa fa-code-fork"
+      url: "https://github.com/eranken/mm-pages"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/eranken"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/thisisevan27/"
+    - label: "GitLab (CERN internal)"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.cern.ch/eranken"
+    - label: "Contact"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:sicktrick@gmail.com"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/thisisevan27/"
 
 defaults:
   # _posts
