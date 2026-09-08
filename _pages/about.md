@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About"
+# permalink: /about/
+# title: "About"
 ---
 
 Hello and welcome to my personal website! 

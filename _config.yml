@@ -57,8 +57,9 @@ plugins:
 
 author:
   name   : "Evan Altair Ranken, PhD"
-  avatar : "/assets/images/hike_cropped.jpg"
+  avatar : "/assets/images/hike_croppedBG.jpg"
   bio    : "Lifelong physics & math enthusiast"
+  location: "Hamburg, Germany"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -72,15 +73,24 @@ author:
     # - label: "GitHub"
     #   icon: "fab fa-fw fa-github"
     #   url: "https://github.com/eranken"
-    - label: "Hamburg, Germany"
-      icon: "fa-solid fa-location-dot"
-      url: "https://www.google.com/maps/place/Hamburg/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/evan-ranken-a2109619b/"
+    # - label: "Hamburg, Germany"
+    #   icon: "fa-solid fa-location-dot"
+    #   url: "https://www.google.com/maps/place/Hamburg/"
     # - label: "Source"
     #   icon: "fa fa-code-fork"
     #   url: "https://github.com/eranken/mm-pages"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/thisisevan27"
+    #   url: "https://instagram.com/"
 
 footer:
   links:

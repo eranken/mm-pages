@@ -3,7 +3,229 @@
 search: false
 ---
 
+
+
 @import "colors";
+$max-width: 1600px;
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin}}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// the "frame" color — shows in the sidebar and in the margins beyond $max-width
+body {
+  background-color: #1b162c; // pick something a shade or two darker than $background-color
+  border-color: #111159;
+  display: flow-root;
+}
+
+// html {
+//   background-color: #600f0f; // same dark color as body
+// }
+
+.masthead {
+//   background-color: #2f2349;   // your header color
+  background-color: #17151d;   // your header color
+
+}
+
+.greedy-nav {
+  background-color: #17151d;
+}
+
+// the "canvas" — pops lighter against the frame
+#main {
+  padding-right: 0;
+  .page,
+  .archive {
+    background-color: $background-color; // your existing lighter background
+    padding: 2em;
+    padding-top: 0.5em;
+    // box-shadow: 0 0 0 1px $border-color;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    margin-bottom: 0;
+    // padding-bottom: 0;
+  }
+}
+
+@media (max-width: #{$large - 1px}) {
+  #main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page,
+  .archive {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .sidebar {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+    .author__avatar {
+    width: 60px; // keep a sane, fixed width for the column
+    padding-bottom: 0.5em;
+
+
+  }
+}
+
+
+
+
+.page__footer {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.archive__subtitle {
+  margin-top: 3rem;
+  padding-top: 0.2rem;
+  border-top: 1px solid $border-color;
+}
+
+.masthead .site-title,
+.masthead a {
+  color: #acdddd;             // header text/link color
+}
+
+.sidebar {
+  text-align: left;
+}
+
+.author__avatar img {
+  display: block;
+  margin: 0 auto; // centers the image regardless of the parent's text-align
+}
+// override back to left-aligned for anything with an icon
+// .author__urls-wrapper {
+//   text-align: right;
+// }
+
+//option to align author url links differently
+.author__urls-wrapper {
+  text-align: left;
+  display: flex;
+//   justify-content: flex-end;
+  align-items: left;
+  gap: 0.4em;
+
+}
+
+// .sidebar li {
+//   display: flex;
+//   justify-content: flex-end;
+// //   align-items: center;
+//   margin-left: auto;
+//   gap: 0.4em;
+
+//   i {
+//     order: 2; // icon moves after the text
+//   }
+// }
+
+.page__footer {
+//   background-color: #110517;   // your footer color
+  background-color: #1d1b1e;   // your footer color
+  color: #ffffff;
+}
+
+.page__footer a {
+  color: #91cfd7;              // footer link color
+}
+
+// stop tables from having scrollbar 
+
+table {
+  table-layout: fixed !important;
+  width: 100% !important;
+}
+
+table td, table th {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+// custom for cv page
+
+$highlight-bg: #4f4571; // pick something that fits your palette
+
+.page__content h2.highlight,
+.archive__item-excerpt h2.highlight {
+  background-color: $highlight-bg;
+  padding: 0.4em 0.75em;
+  border-radius: 4px;
+  margin-left: -0.75em; // offsets the padding so the text
+  margin-right: -0.75em; // still lines up with your body text edge
+}
+
+.page__content .cv-page h2 {
+  background: #535392 !important;
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+}
+
+// .cv-page h2 {
+//   background-color: #535392 !important;
+//   padding: 0.4em 0.6em;
+//   border-radius: 4px;
+// }
+
+// .cv-page h3 {
+//   background-color: #8686d7 !important;
+//   padding: 0.4em 0.6em;
+//   border-radius: 4px;
+// }
+
+// .cv-page h1 {
+//   background-color: #8686d7;
+//   padding: 0.4em 0.6em;
+//   border-radius: 4px;
+// }
+
+// custom table class for CV items
+
+.cv-table {
+  display: table !important;
+  width: 100% !important;
+}
+
+.cv-table table {
+  display: table !important;
+  table-layout: fixed !important;
+  width: 100% !important;;
+  min-width: 100%; // forces true full-width regardless of shrink-to-fit ancestors
+}
+
+.cv-table th:first-child,
+.cv-table td:first-child {
+  width: calc(100% - var(--date-col-width, 6ch)) !important;
+}
+
+.cv-table th {
+  font-weight: normal;
+  background-color: transparent;
+  border-bottom: inherit; // match whatever border your td cells already use
+  text-align: inherit;    // don't let default th centering override your alignment rules
+}
+
+
+.cv-table thead,
+.cv-table thead tr {
+  background-color: transparent;
+}
+
+.cv-table td:last-child,
+.cv-table th:last-child {
+  width: var(--date-col-width, 6ch) !important; // default fallback if not set
+  overflow-wrap: break-word;
+  text-align: right;
+  vertical-align: top;
+  // white-space: nowrap;
+}
