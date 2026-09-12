@@ -49,6 +49,7 @@ body {
 
     margin-bottom: 0;
     // padding-bottom: 0;
+    overflow: auto; // establishes a new block formatting context, forces the box to contain any floated children
   }
 }
 
@@ -60,8 +61,14 @@ body {
 
   .page,
   .archive {
+    background-color: $background-color; // your existing lighter background
     padding-left: 1.5em;
     padding-right: 1.5em;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    margin-bottom: 0;
   }
 
   .sidebar {
@@ -69,11 +76,9 @@ body {
     padding-right: 2em;
   }
 
-    .author__avatar {
-    width: 60px; // keep a sane, fixed width for the column
-    padding-bottom: 0.5em;
-
-
+  .author__avatar {
+  width: 60px; // keep a sane, fixed width for the column
+  padding-bottom: 0.5em;
   }
 }
 
@@ -306,16 +311,31 @@ $highlight-bg: #4f4571; // pick something that fits your palette
 // }
 
 .img-row {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--img-min-width, 150px), var(--img-max-width, 400px)));
+  justify-content: center; // centers the used columns as a group when they don't fill the row
   gap: 1em;
-  flex-wrap: wrap;
+  margin-bottom: var(--img-row-gap, 1em);
 
   img {
-    max-width: var(--img-max-width, 400px); // 400px default if not overridden
-    width: 100%;
+    width: 100%; // fills whatever size the grid track computes
     height: auto;
+    box-sizing: border-box;
     border: 2px solid $border-color;
   }
 }
+
+// .img-row {
+//   display: flex;
+//   justify-content: center;
+//   align-items: flex-start;
+//   gap: 1em;
+//   flex-wrap: wrap;
+
+//   img {
+//     max-width: var(--img-max-width, 400px); // 400px default if not overridden
+//     width: 100%;
+//     height: auto;
+//     border: 2px solid $border-color;
+//   }
+// }
