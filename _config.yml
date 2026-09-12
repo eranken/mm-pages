@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Evan's personal site
+masthead_title: "Home" # overrides just the nav bar link text
 email: sicktrick@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Evan Altair Ranken, physics enthusiast, known jokester, generally ineffective human being.
@@ -108,7 +109,7 @@ footer:
       url: "https://gitlab.cern.ch/eranken"
     - label: "Contact"
       icon: "fa-solid fa-envelope"
-      url: "mailto:sicktrick@gmail.com"
+      url: "/contact/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/thisisevan27/"

@@ -9,6 +9,7 @@ search: false
 $max-width: 1600px;
 
 
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin}}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -165,11 +166,17 @@ $highlight-bg: #4f4571; // pick something that fits your palette
   margin-right: -0.75em; // still lines up with your body text edge
 }
 
-.page__content .cv-page h2 {
-  background: #535392 !important;
-  padding: 0.4em 0.6em;
-  border-radius: 4px;
+.cv-page .page__title {
+  text-align: center !important;
 }
+
+// .page__content .cv-page h2 {
+//   background: #535392 !important;
+//   padding: 0.4em 0.6em;
+//   border-radius: 4px;
+// }
+
+
 
 // .cv-page h2 {
 //   background-color: #535392 !important;
@@ -190,10 +197,59 @@ $highlight-bg: #4f4571; // pick something that fits your palette
 // }
 
 // custom table class for CV items
+.indent {
+  display: block;
+  padding-left: 1.2em;
+}
+.indentt {
+  display: block;
+  padding-left: 1.6em;
+}
+.indenttt {
+  display: block;
+  padding-left: 2.4em;
+}
 
 .cv-table {
+  .indent {
+    display: block;
+    padding-left: 1.2em;
+  }
+  .indentt {
+    display: block;
+    padding-left: 2.4em;
+  }
+  .indent.hanging {
+    display: block;
+    padding-left: 1.2em;
+    text-indent: -0.75em;
+  }
+  .indentt.hanging {
+    display: block;
+    padding-left: 1.8em;
+    text-indent: -0.75em;
+  }
+  .indenttt.hanging {
+    display: block;
+    padding-left: 2.4em;
+    text-indent: -0.75em;
+  }
   display: table !important;
   width: 100% !important;
+  br {
+    display: block;
+    margin-bottom: 0.1em;
+
+    &.gap {
+      margin-bottom: 0.2em;
+    }
+    &.gapp {
+      margin-bottom: 0.5em;
+    }
+    &.gapp {
+      margin-bottom: 0.5em;
+    }
+  }
 }
 
 .cv-table table {
@@ -215,6 +271,18 @@ $highlight-bg: #4f4571; // pick something that fits your palette
   text-align: inherit;    // don't let default th centering override your alignment rules
 }
 
+.cv-table {
+  border-collapse: collapse; // ensures adjacent borders merge into one line instead of stacking
+
+  th,
+  td {
+    border-bottom: 2px solid $border-color; // use whatever value devtools showed for the header
+  }
+}
+
+.cv-table.top-rule {
+  border-top: 2px solid $border-color;
+}
 
 .cv-table thead,
 .cv-table thead tr {
@@ -228,4 +296,26 @@ $highlight-bg: #4f4571; // pick something that fits your palette
   text-align: right;
   vertical-align: top;
   // white-space: nowrap;
+}
+
+// $cv-text-size: 0.8em;
+
+// .cv-table,
+// .cv-text {
+//   font-size: $cv-text-size;
+// }
+
+.img-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+  flex-wrap: wrap;
+
+  img {
+    max-width: var(--img-max-width, 400px); // 400px default if not overridden
+    width: 100%;
+    height: auto;
+    border: 2px solid $border-color;
+  }
 }
