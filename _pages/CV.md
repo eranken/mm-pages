@@ -13,7 +13,7 @@ Introduction
 </h2>
 
 <div style="font-size: 0.75em;" markdown="1">
-I am a postdoctoral researcher in high-energy particle physics with over a decade of research experience spanning cosmology, mathematical quantum field theory, experimental high energy physics, and detector operation and design. I also have a passion for teaching and knowledge transfer, having taught undergraduate physics courses and led advanced data-analysis workshops within the CMS collaboration. After greatly enjoying recent work maintaining a sub-detector for the CMS experiment and prototyping an electron detection system for the planned LUXE experiment, I am eager to continue my career while moving to an applied physics focus.
+I am a postdoctoral researcher in high-energy particle physics with over a decade of research experience spanning cosmology, mathematical quantum field theory, experimental high energy physics, and detector operation and design. I also have a passion for teaching and knowledge transfer, having taught undergraduate physics courses and led advanced data-analysis workshops within the CMS collaboration. With the conclusion of LHC Run 3 in 2026, I am now looking to apply my scientific background in new settings, especially in roles with a communication focus that allow me to interface with others from a broader range of specialties.
 </div>
 
 <h2 class="highlight">
@@ -56,7 +56,7 @@ Coordination roles
 
 <div class="cv-table" style="--date-col-width: 12ch;" markdown="1">
 
-| Convener of BCM1F luminometer detector operations and online measurement until decomissioning in Summer 2026 | 2024–2026 |
+| Convener of BCM1F luminometer detector operations and online measurement until decommissioning in Summer 2026 | 2024–2026 |
 | Convener of CMS single top quark analysis group | 2024–2025 |
 | Organizer & chair of CMS-DESY TOP physics group meetings | 2023–2024 |
 
