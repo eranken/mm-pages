@@ -19,7 +19,7 @@ tags:
 
 Earlier this year, half of the detector subsystem I work on (BCM1F) was replaced with new components to help cope with radiation damage accumulated during LHC Run 3. This requires the CMS detector to be pulled apart, and involves accessing a small area in the middle of the 5-story tall CMS detector, right next to the beam pipe where colliding protons pass and collide during operation. 
 
-Given that we are still in the middle of LHC Run 3, this task could only be completed while the LHC is completely powered down during a narrow window called the year end technical stop. This window takes place from December into January, but remember that the CERN is closed for winter Holidays! It is Europe after all, and holidays are important here!
+Given that we are still in the middle of LHC Run 3, this task could only be completed while the LHC is completely powered down during a narrow window called the year-end technical stop. This window takes place from December into January, but remember that the CERN is closed for winter Holidays! It is a European lab after all, and holidays are important here!
 
 I was lucky enough to join this effort, helping out in the BCM1F back-end readout while our excellent installation crew was mounting the assembly in place and checking connections. Essentially, I hung out near the electronics that receive signals from the new detector components, and made sure they were reading out as expected. Because of the high-radiation environment of the CMS detector during operation, these back-end electronics are in a separate room separated by meters of concrete from the detector.
 
