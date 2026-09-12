@@ -2,7 +2,7 @@
 title: "Podcast: Science Chatter Hamburg"
 date: 2024-11-11T12:34:30-04:00
 categories:
-  - Sci-Comm
+  - Science Communication
 tags:
   - Podcast
   - LHC

@@ -2,7 +2,7 @@
 title: "DESY News: Measurement of the Electroweak Mixing Angle"
 date: 2024-04-03T12:34:30-04:00
 categories:
-  - Press
+  - Science News
 tags:
   - DESY
   - Article
