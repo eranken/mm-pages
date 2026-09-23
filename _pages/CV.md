@@ -108,14 +108,18 @@ Previous research experience
 </div>
 
 <h2 class="highlight">
-Teaching experience
+Teaching and communication-focused experience
 </h2>
 
 <div class="cv-table" style="--date-col-width: 18ch;" markdown="1">
 
+
 | **Facilitator at annual CMS data analysis schools** taking place at CERN and DESY <br class="gapp"><span class="indentt"> Co-designed and led a multi-day exercise for new students (masters to PhD level) as a mock physics measurement at CMS, teaching fundamentals of data analysis and CMS practices </span> | 2023, 2024, 2025 |
-|---|---|
+| **Guide** for particle physics group exhibits, Science City Open Day at DESY Hamburg | 2024 |
+| **Contributing Author** for the CMS Physics briefings<br class="gapp"> <span class="indentt"> Helped to write multiple news articles aimed at a general physic-curious audience for the CMS experiment, in conjunction with other authors and the CMS communications group </span> | 2020--2024 |
 | **Co-Instructor for undergraduate Introductory Physics I**, Colorado College <br class="gapp"><span class="indentt"> Co-taught with instructor Phillip Cervantes with a focus on labs, after-class workshops, and exam preparation + grading </span>  | 2017 |
+| **Co-creator** of the *Graduate Student Research Meeting*, University of Rochester <br class="gapp"><span class="indentt"> Co-created and designed an annual mock-conference designed to foster communication between research groups in the University of Rochester Dept. of Physics & Astronomy, which was later held annually in my absence</span>| 2016 |
+| **Associated presenter** at the Rochester Museum & Science Center <br class="gapp"><span class="indentt"> Completed a training workshop and designed an interactive demonstration which I set up at the museum for visitors </span>| 2015 |
 | **Instructor for undergraduate Introductory Physics I**, University of Rochester <br class="gapp"><span class="indentt"> Primary instructor for summer undergraduate course, taught in an experimental "self-paced" methodology designed to increase interaction with students. Managed 2 teaching assistants </span> | 2014 |
 | **Teaching Assistant for Introductory Physics II and Modern Physics**, University of Rochester <br class="gapp"><span class="indentt"> Received the department's annual AAPT Teaching Prize for work as a teaching assistant </span> | 2013–2014 |
 | **Paraprofessional**, Dept. of Mathematics & Computer Science at Colorado College <br class="gapp"><span class="indentt"> Served as teaching assistant for numerous courses, organized department activities, and created challenge problems for students </span> | 2012–2013 |
@@ -171,16 +175,15 @@ Selected Presentations
 </div>
 
 <h2 class="highlight">
-Scholarships, Honors, and Miscellaneous
+Honors and Miscellaneous
 </h2>
 
 <div class="cv-table" style="--date-col-width: 12ch;" markdown="1">
 
-|  *Frederick Lobkowicz Prize* for outstanding research and dissertation by a student in the University of Rochester department of Physics & Astronomy  | 2021 |
-|---|---|
+
+| *Frederick Lobkowicz Prize* for outstanding research and dissertation by a student in the University of Rochester department of Physics & Astronomy | 2021 |
 | *NSF Graduate Research Fellowship* | 2015–2020 |
 | *Three Minute Thesis* presentation competition finalist | 2016 |
-| Co-created the *Graduate Student Research Meeting*, an annual mock-conference designed to foster research communication between research groups in the University of Rochester Dept. of Physics & Astronomy | 2016 |
 | *AAPT Teaching Prize* for outstanding performance as a teaching assistant | 2014 |
 | Recipient of the University of Rochester *Sproull Fellowship* | 2013–2015 |
 | *Cowperthwaite Award* for excellence in physics (Colorado College) | 2012 |
@@ -189,6 +192,9 @@ Scholarships, Honors, and Miscellaneous
 
 </div>
 <!-- </div> -->
+
+<!-- | Co-created the *Graduate Student Research Meeting*, an annual mock-conference designed to foster communication between research groups in the University of Rochester Dept. of Physics & Astronomy | 2016 | -->
+<!-- | Associated presenter at the Rochester Museum & Science Center | 2015 | -->
 
 <br class="gapp">
 *Last updated: Aug 2026*
