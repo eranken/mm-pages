@@ -26,10 +26,10 @@ I am then joined by my good friends and collaborators Aliya Nigamova and Federic
 <div class="audio-player-card">
   <div class="audio-player-title"><b>Science Chatter:</b> <br>Evan and the Particle Physicists</div>
   <audio controls style="width: 100%;">
-    <source src="/assets/AV/chatter_uhh.mp3" type="audio/mpeg">
+    <source src="/assets/AV/chatter_evan_final.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
-  <a class="audio-download-btn" href="/assets/AV/chatter_uhh.mp3" download>
+  <a class="audio-download-btn" href="/assets/AV/chatter_evan_final.mp3" download>
     ⬇ Download MP3
   </a>
 </div>
