@@ -11,7 +11,7 @@ tags:
   - Publication
 ---
 
-## [New Pre-print, ArXiv:2608.27264](https://arxiv.org/abs/2608.27264)
+## [Available at: ArXiv:2608.27264](https://arxiv.org/abs/2608.27264)
 
 <div class="img-row" style="--img-max-width: 600px;">
   <img src="{{ '/assets/images/c-shape.png' | relative_url }}" alt="c-shape.png">
