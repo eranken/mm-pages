@@ -13,7 +13,7 @@ tags:
 
 <div style="height: 1em;"></div>
 <div class="img-row" style="--img-max-width: 600px;">
-  <img src="{{ '/assets/images/facet2.jpg' | relative_url }}" alt="facet2.jpg">
+  <img src="{{ '/assets/images/facet2.JPG' | relative_url }}" alt="facet2.jpg">
 </div>
 <div style="height: 1em;"></div>
 
@@ -25,7 +25,7 @@ This detector went through multiple rounds of prototyping and testing. In partic
 <div style="height: 1em;"></div>
 <div class="img-row" style="--img-max-width: 400px; --img-min-width: 100px;">
   <img src="{{ '/assets/images/eds-proto.png' | relative_url }}" alt="eds-proto.png">
-  <img src="{{ '/assets/images/facet-cr.jpg' | relative_url }}" alt="facet-cr.jpg">
+  <img src="{{ '/assets/images/facet-cr.JPG' | relative_url }}" alt="facet-cr.jpg">
 </div>
 <div style="height: 2em;"></div>
 
